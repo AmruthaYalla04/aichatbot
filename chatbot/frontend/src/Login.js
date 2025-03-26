@@ -7,7 +7,7 @@ import ThemeToggle from './components/ThemeToggle';
 import './Login.css';
 
 // Access Google Client ID from environment variables
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "748513885856-a8upflc11lkknnnqrrscdcnhije274cr.apps.googleusercontent.com"; // Fallback for development
+const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "592798829571-f6ta165oqlkd9noalseqkm421df7kb4d.apps.googleusercontent.com"; // Fallback for development
 
 function Login({ setIsAuthenticated }) {
   const { theme } = useTheme();
