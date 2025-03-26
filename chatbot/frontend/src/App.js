@@ -8,7 +8,7 @@ import Chat from './Chat';
 import './App.css';
 
 // Access Google Client ID from environment variables with fallback
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "748513885856-a8upflc11lkknnnqrrscdcnhije274cr.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "592798829571-f6ta165oqlkd9noalseqkm421df7kb4d.apps.googleusercontent.com";
 
 // Check if we have a valid client ID
 console.log(`[App] Initializing with Google Client ID: ${GOOGLE_CLIENT_ID ? 'Present' : 'MISSING'}`);
